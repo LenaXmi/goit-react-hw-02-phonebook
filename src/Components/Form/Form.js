@@ -19,9 +19,10 @@ class Form extends Component {
   };
 
   handleSubmit = e => {
+    const { submit } = this.props;
     e.preventDefault();
 
-    this.props.submit(this.state);
+    submit(this.state);
 
     this.reset();
   };
