@@ -1,6 +1,7 @@
 .Form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .Label {
@@ -11,7 +12,7 @@
 
 .Input {
   display: block;
-  width: 30%;
+  width: 400px;
 
   padding: 5px;
 
@@ -32,17 +33,15 @@
   color: #0f1111;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Amazon Ember', sans-serif;
+
   font-size: 13px;
   line-height: 29px;
   padding: 0 10px 0 11px;
-  position: relative;
+
   text-align: center;
   text-decoration: none;
   user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
+
   width: 100px;
 }
 

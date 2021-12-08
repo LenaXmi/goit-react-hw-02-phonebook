@@ -1,7 +1,14 @@
+import s from './Filter.module.css';
+
 const Filter = ({ value, onChange }) => {
   return (
     <label>
-      <input type="text" value={value} onChange={onChange} />
+      <input
+        className={s.Input}
+        type="text"
+        value={value}
+        onChange={onChange}
+      />
     </label>
   );
 };
