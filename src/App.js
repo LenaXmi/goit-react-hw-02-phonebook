@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Container from './Components/Container';
-import Form from './Components/Form';
-import Contacts from './Components/Contacts';
-import Filter from './Components/Filter';
+import Container from './сomponents/Container';
+import Form from './сomponents/Form';
+import Filter from './сomponents/Filter';
+import Contacts from './сomponents/Contacts';
 import initialContacts from './initialContacts.json';
 import s from './App.module.css';
 
