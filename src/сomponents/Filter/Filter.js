@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import s from './Filter.module.css';
 
 const Filter = ({ value, onChange }) => {
-  console.log(value);
   return (
     <label>
       <input
